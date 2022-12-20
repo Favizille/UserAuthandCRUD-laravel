@@ -27,11 +27,11 @@
                         <div class="card-body p-4 p-md-5 shadow">
                             <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2">Login</h3>
 
-                            <form action="" method="POST" class="px-md-2">
+                            <form action="{{route("login")}}" method="POST" class="px-md-2">
                                 @csrf
 
                                 <div class="form-outline mb-4">
-                                <input type="text" class="form-control" placeholder="ID" name="identification_number"/>
+                                <input type="text" class="form-control" placeholder="ID" name="Identification_number"/>
                                 </div>
 
                                 <div class="form-outline mb-4">

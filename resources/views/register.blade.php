@@ -29,7 +29,7 @@
                         <div class="card-body p-4 p-md-5 shadow">
                         <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2"> Register </h3>
 
-                        <form action="" method="POST" class="px-md-2">
+                        <form action="{{route("register")}}" method="POST" class="px-md-2">
                             @csrf
 
                             <div class="form-outline mb-4">
